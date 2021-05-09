@@ -1,6 +1,8 @@
 # TK - A Telegram Bot
 
 ## Notes:
+**unfinished. but it's there.**
+
 a pypi package named [tgtk](https://pypi.org/project/tgtk) containing all bot code, easily to install with 
 ```
 pip install tgtk
