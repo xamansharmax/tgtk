@@ -37,7 +37,7 @@ git push heroku main
 `IS_VPS` = False
 ## Compulsory Vars
 
-`API_HASH` = Obtained from Telegram 
+`APP_HASH` = Obtained from Telegram 
 
 `API_ID` = Obtained from Telegram
 
@@ -45,7 +45,7 @@ git push heroku main
 
 `BASE_URL_OF_BOT` = IP/domain of your bot like "https://appname.herokuapp.com" (for heroku)
 
-`ALD_USR` = It is a list of IDs of all the allowed groups and useres who can use this bot in private. Seperated by spaces e.g: "-102222 -33322211 11222333"
+`AUTH_CHANNEL` = It is a list of IDs of all the allowed groups and useres who can use this bot in private. Seperated by spaces e.g: "-102222 -33322211 11222333"
 
 `DB_URI` = Postgres database URL.
 
