@@ -6,4 +6,4 @@ build:
   docker:
     web: Dockerfile
 run:
-    web: python3 -m tgtk
+    web: bash start.sh
