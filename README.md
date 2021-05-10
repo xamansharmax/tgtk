@@ -1,13 +1,15 @@
 # TK - A Telegram Bot
 
 ## Notes:
-**unfinished. but it's there.**
+**testing in progress. to be merged to main.**
 
 a pypi package named [tgtk](https://pypi.org/project/tgtk) containing all bot code, easily to install with 
 ```
 pip install tgtk
 ```
 deploying from an docker image [reaitten/tk:beta](https://hub.docker.com/r/reaitten/tk/tags?page=1&ordering=last_updated)
+
+very similar to deployment to [ksssomesh12/tgmb](https://github.com/ksssomesh12/tg-mirror-bot)
 
 ## Deploy via Heroku CLI
 - Download branch as a ZIP.
