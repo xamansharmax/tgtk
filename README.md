@@ -1,18 +1,24 @@
 # TK - A Telegram Bot
 
 ## Notes:
-**testing in progress. to be merged to main.**
+all code do not belong to me, the original author is [yash-dk](https://github.com/yash-dk). please support his works by using the repo what is was made for, and leaving a star on his repo.
 
-a pypi package named [tgtk](https://pypi.org/project/tgtk) containing all bot code, easily to install with 
-```
-pip install tgtk
-```
-deploying from an docker image [reaitten/tk:beta](https://hub.docker.com/r/reaitten/tk/tags?page=1&ordering=last_updated)
+i had only modified it to be compatible with Heroku.
 
-very similar to deployment to [ksssomesh12/tgmb](https://github.com/ksssomesh12/tg-mirror-bot)
+do whatever what you want to do.
+
+got any questions/comments/insults for me?
+
+you can easily contact me on [telegram.](https://t.me/orsixtyone)
+
+## Deploy via Heroku
+- Click the button below
+- Add required variables
+- Build
+<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/tk"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 ## Deploy via Heroku CLI
-- Download branch as a ZIP.
+- Download [deploy.zip](https://github.com/reaitten/tk/releases/tag/v1.0).
 - Unzip & open a command prompt.
 - Change stack dyno to container:
 ```
@@ -39,9 +45,9 @@ git push heroku main
 `IS_VPS` = False
 ## Compulsory Vars
 
-`APP_HASH` = Obtained from Telegram 
+`API_HASH` = Obtained from Telegram 
 
-`API_ID` = Obtained from Telegram
+`APP_ID` = Obtained from Telegram
 
 `BOT_TOKEN` = Obtained from Botfather
 
