@@ -1,3 +1,3 @@
-FROM reaitten/tk:latest
+FROM reaitten/tk:beta
 WORKDIR /tk
 COPY . .
