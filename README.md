@@ -27,9 +27,13 @@ heroku stack:set container --app your-app-name
 - Initialise the project files as a Git Repository, push the repo to 'Heroku Git' and build the Docker Image:
 ```
 git init
+```
 git add .
-heroku git:remote -a your-app-name`
+```
+heroku git:remote -a your-app-name
+```
 git commit -m "initial commit"
+```
 git push heroku main
 ```
 
