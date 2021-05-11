@@ -28,11 +28,15 @@ heroku stack:set container --app your-app-name
 ```
 git init
 ```
+```
 git add .
+```
 ```
 heroku git:remote -a your-app-name
 ```
+```
 git commit -m "initial commit"
+```
 ```
 git push heroku main
 ```
