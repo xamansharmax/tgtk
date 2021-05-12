@@ -1,6 +1,9 @@
 # TK - A Telegram Bot
 
 ## Notes:
+
+**please don't use this repo as of yet, there are some things i need to crack down. some bugs are listed in the issues tab.**|
+
 all code do not belong to me, the original author is [yash-dk](https://github.com/yash-dk). please support his works by using the repo what is was made for, and leaving a star on his repo.
 
 i had only modified it to be compatible with Heroku.
