@@ -1,27 +1,28 @@
-# TK - A Telegram Bot
+# TGTK - A Telegram Bot
 
 ## Notes:
 
-**please don't use this repo as of yet, there are some things i need to crack down. some bugs are listed in the issues tab.**|
+**do note that [yash-dk](https://github.com/yash-dk) will be creating a heroku fork of ttk, you should wait until he releases it in late may.**
 
 all code do not belong to me, the original author is [yash-dk](https://github.com/yash-dk). please support his works by using the repo what is was made for, and leaving a star on his repo.
 
-i had only modified it to be compatible with Heroku.
+contact me on [telegram.](https://t.me/orsixtyone)
 
-do whatever what you want to do.
-
-got any questions/comments/insults for me?
-
-you can easily contact me on [telegram.](https://t.me/orsixtyone)
+## Deployment Process
+a pypi package named [tgtk](https://pypi.org/project/tgtk) containing all bot code, easily to install with 
+```
+pip install tgtk
+```
+deploying from an docker image [reaitten/tk:latest](https://hub.docker.com/r/reaitten/tk/tags?page=1&ordering=last_updated)
 
 ## Deploy via Heroku
 - Click the button below
 - Add required variables
 - Build
 <p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/tk"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
-
+    
 ## Deploy via Heroku CLI
-- Download [deploy.zip](https://github.com/reaitten/tk/releases/tag/v1.0).
+- Download [deploy.zip](https://github.com/reaitten/tk/releases/tag).
 - Unzip & open a command prompt.
 - Change stack dyno to container:
 ```
@@ -30,17 +31,9 @@ heroku stack:set container --app your-app-name
 - Initialise the project files as a Git Repository, push the repo to 'Heroku Git' and build the Docker Image:
 ```
 git init
-```
-```
 git add .
-```
-```
-heroku git:remote -a your-app-name
-```
-```
+heroku git:remote -a your-app-name`
 git commit -m "initial commit"
-```
-```
 git push heroku main
 ```
 
@@ -51,6 +44,8 @@ git push heroku main
 > [tortoolkit's tortoolkit-Telegram](https://github.com/tk/tk-Telegram)
 
 > [sahadz's tortoolkit-Telegram](https://github.com/sahadz/tk-Telegram)
+
+> [dr-qaatil <3](https://github.com/dr-qaatil)
 
 ## Variables
 `IS_VPS` = False
@@ -64,7 +59,7 @@ git push heroku main
 
 `BASE_URL_OF_BOT` = IP/domain of your bot like "https://appname.herokuapp.com" (for heroku)
 
-`AUTH_CHANNEL` = It is a list of IDs of all the allowed groups and useres who can use this bot in private. Seperated by spaces e.g: "-102222 -33322211 11222333"
+`AUTH_CHANNEL` = It is a list of IDs of all the allowed groups and useres who can use this bot in private. Seperated by spaces e.g: "-1022222 -33322211 11222333"
 
 `DB_URI` = Postgres database URL.
 
