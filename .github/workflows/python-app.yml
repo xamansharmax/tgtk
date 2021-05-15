@@ -34,4 +34,4 @@ jobs:
         python3 -m build
     - name: push
       run: |
-        python3 -m twine upload dist/*
+        python3 -m twine upload dist/* --username=${{ secrets.PYPI_USER }} --password-${{ secrets.PYPI_PASS }}
