@@ -7,9 +7,9 @@ setuptools.setup(
     description="A Telegram Bot written in Python to mirror files on the internet onto Telegram",
     long_description=open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/reaitten/tk",
+    url="https://github.com/reaitten/tgtk",
     project_urls={
-        "Bug Tracker": "https://github.com/reaitten/tk/issues",
+        "Bug Tracker": "https://github.com/reaitten/tgtk/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
