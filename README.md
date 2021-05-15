@@ -37,6 +37,9 @@ git commit -m "initial commit"
 git push heroku main
 ```
 
+## Prevent Sleeping Dyno
+To keep the dyno alive, and prevent it from idling/sleeping, you can use [Kaffeine[(https://kaffeine.herokuapp.com/)
+
 # Credits
 
 > [yash-dk's TorToolkit](https://github.com/yash-dk/TorToolkit-Telegram)
