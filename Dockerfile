@@ -1,3 +1,3 @@
 FROM reaitten/tk:latest
-WORKDIR /tk
+WORKDIR /tgtk
 COPY . .
