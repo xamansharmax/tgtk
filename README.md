@@ -19,10 +19,10 @@ deploying from an docker image [reaitten/tk:latest](https://hub.docker.com/r/rea
 - Click the button below
 - Add required variables
 - Build
-<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/tk"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/tgtk"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
     
 ## Deploy via Heroku CLI
-- Download [deploy.zip](https://github.com/reaitten/tk/releases/tag).
+- Download [deploy.zip](https://github.com/reaitten/tgtk/releases).
 - Unzip & open a command prompt.
 - Change stack dyno to container:
 ```
