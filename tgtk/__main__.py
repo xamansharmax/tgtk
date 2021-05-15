@@ -57,6 +57,6 @@ if __name__ == "__main__":
         ttkbot.loop.run_until_complete(get_rstuff())
     except:pass
     
-    logging.info("da baby in 24 bit flac, LESGOO")
+    logging.info("it's on!")
 
     ttkbot.run_until_disconnected()
